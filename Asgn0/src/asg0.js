@@ -1,4 +1,6 @@
 // DrawTriangle.js (c) 2012 matsuda
+//Hank Liu
+//hacliu@ucsc.edu
 var canvas;
 var ctx;
 
