@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lighting</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl160" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+    <p id="numdot"> XXX </p>
+    <p>
+    <button type="button" id="Normal On">Normal On</button>
+    <button type="button" id="Normal Off">Normal Off</button>
+    <p>
+    Light: <button type="button" id="LightOn">On</button>
+    <button type="button" id="LightOff">Off</button>
+    <p>
+    Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+    Light Y <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideY">
+    Light Z <input type="range" min="-250" max="250" value="-250" class="slider" id="lightSlideZ">
+    <p>  
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="Camera.js"></script>
+    <script src="Sphere.js"></script>
+    <script src="Model.js"></script>
+    <script src="lighting.js"></script>
+  </body>
+</html>
+`
